@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 public class Main {
+// in B1 change1
 
 	public static boolean isConstant(char x){
 		if (x>='0' && x<='9')	return true;
@@ -52,7 +53,7 @@ public class Main {
 			ind++;
 		}
 
-		
+
 //		System.out.println(buf);
 		String[] ta=buf.split("\\+");
 		String bigans= new String();
@@ -103,10 +104,10 @@ public class Main {
 	}
 
 	public static String derivative(String buf,String cmd){
-		
+
 
 		String cname=String.valueOf(cmd.charAt(5));
-		
+
 
 		String finans = new String("");
 		String[] ta=buf.split("\\+");
@@ -168,4 +169,5 @@ public class Main {
 		}
 	}
 }
+//20161017
 
